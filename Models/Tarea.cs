@@ -1,10 +1,11 @@
+namespace models;
 public enum Estados{
     ToDo,
     Doing,
     Review,
     Done
 }
-class Tarea{
+public class Tarea{
     private int Id;
     private int Id_tablero;
     private string Nombre;
