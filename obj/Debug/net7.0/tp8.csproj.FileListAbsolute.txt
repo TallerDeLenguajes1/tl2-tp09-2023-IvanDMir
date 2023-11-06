@@ -57,3 +57,4 @@ C:\Users\User\Dropbox\Facultad\Tercer año Segundo cuatrimestre\Taller 2\tp8\tl2
 C:\Users\User\Dropbox\Facultad\Tercer año Segundo cuatrimestre\Taller 2\tp8\tl2-tp09-2023-IvanDMir\obj\Debug\net7.0\tp8.pdb
 C:\Users\User\Dropbox\Facultad\Tercer año Segundo cuatrimestre\Taller 2\tp8\tl2-tp09-2023-IvanDMir\obj\Debug\net7.0\tp8.genruntimeconfig.cache
 C:\Users\User\Dropbox\Facultad\Tercer año Segundo cuatrimestre\Taller 2\tp8\tl2-tp09-2023-IvanDMir\obj\Debug\net7.0\ref\tp8.dll
+C:\Users\User\Dropbox\Facultad\Tercer año Segundo cuatrimestre\Taller 2\tp8\tl2-tp09-2023-IvanDMir\bin\Debug\net7.0\DB\Tareas.db

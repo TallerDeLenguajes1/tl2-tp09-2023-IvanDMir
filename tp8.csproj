@@ -14,7 +14,7 @@
 
   
   <ItemGroup>
-    <None Update="db\movie.db">
+    <None Update="db\Tareas.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   
