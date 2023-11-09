@@ -55,22 +55,7 @@ public class UsuarioController : ControllerBase
 
     // Preguntar como dividir los controladores
 
-    [HttpPost("CreateTablero")]
-    public ActionResult CreateTablero(Tablero tableronuevo){
-        RepoTablero.Crear(tableronuevo);
-        return Ok();
-
-    }
-
-    [HttpGet("GetAllTablero")]
-    public ActionResult<List<Usuario>> GetallTablero(){
-       
-        List<Tablero> ListaTab = RepoTablero.GetAll();
-        if (ListaTab.Count() == 0){
-            return BadRequest("No se ha podido hallar Usuarios");
-        }
-        return Ok(ListaTab);
-    }
+ 
 
 
 

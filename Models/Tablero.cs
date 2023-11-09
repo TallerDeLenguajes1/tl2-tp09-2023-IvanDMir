@@ -3,7 +3,7 @@ namespace models;
     private int id_tablero;
     private string nombre;
     private string descripcion;
-    private int id_usuario_propietario;
+    private int? id_usuario_propietario;
 
      public int IdTablero
     {
@@ -23,7 +23,7 @@ namespace models;
         set { descripcion = value; }
     }
 
-    public int IdUsuarioPropietario
+    public int? IdUsuarioPropietario
     {
         get { return id_usuario_propietario; }
         set { id_usuario_propietario = value; }

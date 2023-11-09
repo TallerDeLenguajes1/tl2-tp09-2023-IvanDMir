@@ -47,7 +47,7 @@ namespace repositorios{
             connection.Close();       
         }
         public void Crear(Usuario usuarioCreado){
-         var query = $"INSERT INTO usuario (nombre_de_usuario) VALUES (@nombre_de_usuario) WHERE id = @Id";
+         var query = $"INSERT INTO usuario (nombre_de_usuario) VALUES (@nombre_de_usuario)";
          using (SQLiteConnection connection = new SQLiteConnection(cadenaConexion)){
             connection.Open();
 
