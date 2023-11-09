@@ -6,11 +6,11 @@ namespace tp9.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class tableroController : ControllerBase {
-        private readonly ILogger<tableroController> _logger;
+public class TableroController : ControllerBase {
+        private readonly ILogger<TableroController> _logger;
         TableroRepositorios RepoTablero;
 
-         public tableroController(ILogger<tableroController> logger)
+         public TableroController(ILogger<TableroController> logger)
     {
 
         RepoTablero = new TableroRepositorios();
